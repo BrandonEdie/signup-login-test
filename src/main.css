@@ -30,7 +30,6 @@ body {
 .form__input,
 .form__button {
     font: 500 1rem 'Quicksand', sans-serif;
-    background: 0 0 40px rgba(255, 255, 255, 0.5);
 }
 
 .form--hidden {
@@ -77,6 +76,7 @@ body {
     border: 1px solid #dddddd;
     outline: none;
     background: 0 0 40px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.5);
     transition: background 0.2s, border-color 0.2s;
 }
 
@@ -125,6 +125,7 @@ body {
     color: var(--color-secondary);
     text-decoration: none;
     cursor: pointer;
+    color: white;
 }
 
 .form__link:hover {
