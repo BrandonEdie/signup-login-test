@@ -48,6 +48,7 @@ body {
 .form__title {
     margin-bottom: 2rem;
     text-align: center;
+    color: white;
 }
 
 .form__message {
