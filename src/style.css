@@ -38,7 +38,7 @@ header #row{
     align-items: center;
 }
 
-header #jumbotron{
+header #JesusChristIsKing{
     height: 200px;
     background: rgb(11, 131, 250);
     color: white;
@@ -103,7 +103,8 @@ main #products{
 }
 
 main #products .card{
-    height: 170px;
+    margin-top: 1px;
+    height: 400px;
     display: grid;
     justify-content: center;
     align-items: center;
