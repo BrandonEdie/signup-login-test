@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: url(../Background/background.jpg);
+    background: url(./Background/background.jpg);
     background-size: cover;
 }
 
@@ -21,6 +21,7 @@ body {
     max-width: 400px;
     margin: 1rem;
     padding: 2rem;
+    /* box-shadow: 0 0 40px rgb(248, 244, 244); */
     border-radius: var(--border-radius);
 }
 
@@ -83,10 +84,6 @@ body {
     -webkit-box-shadow: 0 2px 10px 1px rgba(255, 255, 255, 0.5);
     box-shadow: 0 2px 10px 1px rgb(247, 243, 243);
   }
-  ::-webkit-input-placeholder { color: #666;} 
-  :-moz-placeholder { color: #667; }
-  ::-moz-placeholder { color: #667; }
-  :-ms-input-placeholder { color: #667; }
 
 .form__input:focus {
     border-color: var(--color-primary);
